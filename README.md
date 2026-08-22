@@ -1,0 +1,2 @@
+# DataCompletionClassGenerator
+DBデータ補完クラス生成用ツール
