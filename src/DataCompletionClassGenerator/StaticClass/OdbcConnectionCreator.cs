@@ -7,7 +7,7 @@ using System.Data.Odbc;
 
 namespace DataCompletionClassGenerator.Class
 {
-    internal class OdbcConnectionCreator
+    internal static class OdbcConnectionCreator
     {
         public static OdbcConnection CreateOdbcConection(string dsn,string uid,string pwd)
         {

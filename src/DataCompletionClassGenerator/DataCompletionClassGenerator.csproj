@@ -48,8 +48,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class\DsnGetter.cs" />
-    <Compile Include="Class\OdbcConnectionCreator.cs" />
+    <Compile Include="Class\Component.cs" />
+    <Compile Include="StaticClass\DsnGetter.cs" />
+    <Compile Include="StaticClass\OdbcConnectionCreator.cs" />
+    <Compile Include="Class\TableMetadata.cs" />
+    <Compile Include="Enum\ComponentAttribute.cs" />
+    <Compile Include="Enum\DataType.cs" />
     <Compile Include="Form\Connect.cs">
       <SubType>Form</SubType>
     </Compile>
